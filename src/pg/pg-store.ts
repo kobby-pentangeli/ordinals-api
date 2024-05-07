@@ -42,7 +42,8 @@ import {
 } from './types';
 
 export const MIGRATIONS_DIR = path.join(__dirname, '../../migrations');
-export const ORDINALS_GENESIS_BLOCK = 767430;
+// export const ORDINALS_GENESIS_BLOCK = 767430;
+export const ORDINALS_GENESIS_BLOCK = 0;
 
 type InscriptionIdentifier = { genesis_id: string } | { number: number };
 

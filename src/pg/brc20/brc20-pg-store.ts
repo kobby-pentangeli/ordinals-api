@@ -32,7 +32,8 @@ import { Brc20TokenOrderBy } from '../../api/schemas';
 import { objRemoveUndefinedValues } from '../helpers';
 
 /** The block at which BRC-20 activity began */
-export const BRC20_GENESIS_BLOCK = 779832;
+// export const BRC20_GENESIS_BLOCK = 779832;
+export const BRC20_GENESIS_BLOCK = 0;
 
 export class Brc20PgStore extends BasePgStoreModule {
   sqlOr(partials: postgres.PendingQuery<postgres.Row[]>[] | undefined) {
